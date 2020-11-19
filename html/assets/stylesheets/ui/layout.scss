@@ -1,0 +1,146 @@
+.page-sections.even-odd-sections {
+  .section-even-odd {
+    background-color: #f5f5f5;
+  }
+
+  .section-even-odd:nth-child(even) {
+    background-color: #ffffff;
+  }
+}
+
+.hero-unit.hero-unit-light {
+  background: $bg-white;
+  color: $text-dark;
+}
+
+.hero-unit.hero-unit-dark {
+  background: $bg-dark;
+  color: $text-white;
+}
+
+
+
+.page-content-width {
+  width: 95%;
+  // max-width: 1080px;
+  max-width: $content-max-width;
+}
+
+
+.section-content-width {
+  width: 95%;
+  margin: 0 auto;
+  max-width: $section-content-max-width;
+}
+.menu-wrap {
+  @extend .page-content-width;
+}
+
+.main-section {
+  padding-top: $main-section-padding-v;
+  padding-bottom: $main-section-padding-v;
+
+  // padding-left: $main-section-padding-h;
+  // padding-right: $main-section-padding-h;
+  .sub-section {
+    margin: 0 auto;
+    @extend .page-content-width;
+    padding: 0 1em;
+    // background: white;
+    // min-height: 100px;
+  }
+
+  .sub-section.timeline-section {
+    max-width: 960px;
+  }
+}
+
+
+.index-page {
+  .main-section {
+    padding-top: $main-section-padding-extra;
+    padding-bottom: $main-section-padding-extra;
+  }
+}
+
+
+.main-section.section-info,
+.index-page .main-section.section-info {
+  padding: 1em 0;
+  background: $bg-info;
+}
+
+.main-section.section-info.section-info-featured{
+  background: $bg-info-featured;
+}
+
+
+.section-info .section-content {
+  max-width: $section-content-max-width;
+  margin: 0 auto;
+  width: 80%;
+}
+
+
+.section-content {}
+
+.main-section.hero-unit {}
+
+
+
+.card-link-set {
+  .card-content {
+    background: $bg-light;
+    border-radius: 4px;
+  }
+}
+
+
+.yt-limiter {
+  width: 640px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.yt-container {
+  width: 100%;
+  padding-top: 66.67%;
+  position: relative;
+
+  .yt-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.iframe-yt-container {
+  width: 100%;
+  // position: relative;
+  min-height: 360px;
+
+  .iframe-yt-frame {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // bottom: 0;
+    // right: 0;
+    // height: 100%;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.even-odd-container.striped {
+  .even-odd {
+    background: $bg-white;
+  }
+
+  .even-odd:nth-of-type(even) {
+    background: $bg-grey;
+  }
+}

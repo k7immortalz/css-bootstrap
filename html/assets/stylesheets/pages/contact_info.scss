@@ -1,0 +1,43 @@
+.contact-sidebar {
+  background: $bg-grey;
+  border-radius: 1em;
+  padding: 0 2em;
+
+  .card-body {
+    padding: 2em 0;
+    border-bottom: solid 2px $bg-medium;
+  }
+
+  .card-body:last-child {
+    border-bottom: none;
+  }
+
+  .address {
+    color: $text-dark-grey;
+    line-height: 1.7;
+  }
+
+  .img-fluid {
+    border-radius: 5em;
+  }
+
+  .key-contact {
+    a {
+      @extend .text-sm;
+    }
+  }
+}
+
+.quick-titles {
+  font-weight: bold;
+  text-align: left;
+  @extend .text-lg;
+  margin-bottom: 0.5em;
+}
+
+.quick-contacts {
+  .quick-contact {
+    font-weight: bold;
+    @extend .text-md;
+  }
+}

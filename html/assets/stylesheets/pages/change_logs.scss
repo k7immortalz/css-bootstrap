@@ -1,0 +1,63 @@
+.changelog-section{
+  background-color: $bg-white;
+  background-image: image-url('banner/banner-changelog.svg');
+  background-repeat: repeat;
+  // background: rgb(255,255,255);
+  background-image: linear-gradient(
+    90deg,
+    rgba(255,255,255,0) 0%,
+    rgba(255,255,255,1) 20%,
+    rgba(255,255,255,1) 80%,
+    rgba(255,255,255,0) 100%
+    ),
+    image-url('banner/banner-changelog.svg');
+}
+
+@media (max-width: $breakpoint-sm) {
+  .changelog-section{
+    background-image: linear-gradient(
+    0deg,
+    rgba(255,255,255,0) 0%,
+    rgba(255,255,255,1) 25%,
+    rgba(255,255,255,1) 75%,
+    rgba(255,255,255,0) 100%
+    ),
+    image-url('banner/banner-changelog.svg');
+  }
+}
+
+.shared-changelog-content {
+ .version-name {
+  @extend .text-accent;
+  @extend .text-xxxl;
+  font-weight: bold;
+ }
+
+ .version-highlights {
+  // @extend .text-accent;
+  @extend .text-xl;
+  font-weight: bold;
+
+  .version-highlight {
+   line-height: 1.8;
+  }
+ }
+}
+
+@media (min-width: $breakpoint-sm) {
+ .shared-changelog-content .version-highlights:nth-of-type(odd){
+   text-align: right;
+ }
+ .shared-changelog-content .version-highlights:nth-of-type(even) {
+  border-left: solid 2px $text-dark;
+ }
+}
+
+.guide-link {
+ margin-top: 2em;
+ background: $bg-grey;
+ border-radius: 0.5em;
+ padding: 1.5em;
+
+ @extend .card-shadow;
+}

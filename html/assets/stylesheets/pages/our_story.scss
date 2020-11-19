@@ -1,0 +1,19 @@
+.our-story {
+  .page-title-section {
+    @extend .page-content-width;
+    margin: 0 auto;
+  }
+
+  .smart-school {
+    padding: 3em 2em;
+  }
+}
+
+@media (max-width:$breakpoint-md) {
+  .our-story .smart-school {
+    padding: 2em 1em;
+    margin: 1em;
+    margin-top: 3em;
+    border-radius: 1em;
+  }
+}

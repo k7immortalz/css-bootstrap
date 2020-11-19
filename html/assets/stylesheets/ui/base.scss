@@ -1,0 +1,244 @@
+@import "./config/variables";
+
+// form
+.admin-pages {
+  .field {
+    @extend .form-group
+  }
+
+  .field {
+
+    input[type=text],
+    textarea {
+      @extend .form-control
+    }
+  }
+
+  .actions input {
+    @extend .btn;
+    @extend .btn-primary
+  }
+
+  table {
+    @extend .table;
+    @extend .table-bordered;
+    @extend .table-striped;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+a {
+  color: $accent;
+}
+
+.yt-iframe-link {
+  cursor: pointer;
+}
+
+.ft-bullet {
+  background:
+    #152849;
+  height: 0.5em;
+  width: 0.5em;
+  border-radius: 1em;
+}
+
+.bg-white {
+  background-color: $bg-white;
+}
+
+.bg-light {
+  background-color: $bg-light;
+}
+
+.bg-info {
+  background: $bg-info;
+}
+
+.bg-medium {
+  background-color: $bg-medium;
+}
+
+.bg-grey {
+  background-color: $bg-grey;
+}
+
+.bg-dark,
+.section-inverse {
+  background-color: $bg-dark !important;
+}
+
+.bg-dark-blue{
+  background-color: $bg-dark-blue;
+}
+
+.bg-accent{
+  background-color: $bg-accent;
+}
+
+.vcenter {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.card-shadow {
+  margin-bottom: 1em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.125);
+}
+
+.page-title-section {
+  // padding: 2rem 1rem 0.5rem;
+  padding: 4rem 1rem 1rem;
+  text-align: center;
+
+  h1 {
+    color: $text-dark;
+    text-align: center;
+    font-weight: bold;
+    @extend .text-xxxl;
+  }
+
+  h2,
+  h3 {
+    @extend .text-lg;
+    @extend .text-grey;
+    font-weight: normal;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+}
+
+.page-title-section+.main-section {
+  padding-top: 0;
+}
+
+.main-section .sub-section {
+
+  h1,
+  h2,
+  h3 {
+    // color: $text-dark;
+    //max-width: $breakpoint-md;
+    text-align: center;
+    //margin: 0 auto;
+  }
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+h1 {
+  @extend .text-xxxl;
+}
+
+h2 {
+  @extend .text-xxl;
+}
+
+h3 {
+  @extend .text-sm;
+}
+
+h4 {
+  @extend .text-lg;
+}
+
+.h1 {
+  @extend h1;
+}
+
+.h2 {
+  @extend h2;
+}
+
+.h3 {
+  @extend h3;
+}
+
+.h4 {
+  @extend h4;
+}
+
+.h5 {
+  @extend h5;
+}
+
+a.text-sm{
+  font-size: 16px;
+}
+
+//sections
+
+
+.section-title {
+  text-align: center;
+  padding-bottom: 2em;
+  padding-bottom: 1em;
+}
+
+.section-content {
+  .description {
+    @extend .text-sm;
+    @extend .text-grey;
+  }
+
+  .feature-highlights {
+    margin-bottom: 2em;
+    padding: 1em;
+
+    a {
+      color: $accent;
+    }
+  }
+}
+
+
+.action-banner {
+  padding: 2em;
+  // font-size: 0.8em;
+
+  .btn {
+    // margin: 0.5em;
+  }
+
+  .message {
+    margin-bottom: 2em;
+  }
+}
+
+@media (min-width: $breakpoint-sm) {
+  .action-banner .btn {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+}
+
+
+.action-section {
+  .btn {
+    margin: 1em 0;
+  }
+
+  .cta {
+    margin-bottom: 1em;
+  }
+}
+
+.spacer {
+  margin-top: 2em;
+}
+
+.unnumbered {
+  list-style: none;
+  padding-left: 1.2em;
+}
+
+.card.no-border {
+  border: none;
+}

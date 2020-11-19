@@ -1,0 +1,23 @@
+.rating-star-base {
+  position: relative;
+  max-width: 100px;
+  margin: 0 auto;
+  white-space: nowrap;
+
+  .rating-icon {
+    position: static;
+    display: inline-block;
+    font-size: 0;
+    width: 20%;
+    height: 24px;
+  }
+}
+
+.rating-negate-filter {
+  white-space: nowrap;
+  background: rgba(255, 255, 255, 0.5);
+  height: 24px;
+  right: 0;
+  position: absolute;
+  z-index: 22;
+}

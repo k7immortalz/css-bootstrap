@@ -1,0 +1,67 @@
+.nav-section-handlers {
+  margin-bottom: 2em;
+
+  .nav-link {
+    @extend .text-lg;
+    color: $text-dark;
+    // border-bottom: solid 2px transparent;
+    text-underline-position: under;
+  }
+
+  .nav-link.active,
+  .nav-link:hover {
+    color: $accent;
+  }
+
+  .nav-link.active {
+    font-weight: bold;
+  }
+
+  .nav-link.active,
+  .nav-link:hover {
+    text-decoration: underline;
+    // border-bottom-color: $accent;
+  }
+}
+
+.member-card {
+  background: $bg-lightgrey;
+  border-color: $bg-lightgrey;
+  border-radius: 0.5em;
+  padding: 1em;
+  line-height: 1.6;
+}
+
+.member-contact {
+  margin: 1em 0;
+
+  a {
+    margin-right: 0.3em;
+  }
+}
+
+.member-subtitle {
+  display: inline-block;
+  border-bottom: solid 1px $text-grey;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+.member-title {
+  @extend .text-xl;
+  font-weight: bold;
+}
+
+.member-subtitle {
+  @extend .h3;
+}
+
+.member-description {
+  // @extend .h3;
+  color: $text-grey;
+}
+
+.team-avatar {
+  height: 128px;
+  width: 128px;
+}

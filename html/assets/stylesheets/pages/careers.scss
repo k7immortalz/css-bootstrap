@@ -1,0 +1,22 @@
+.hero-unit .banner-careers {
+  color: $text-white;
+  background-image: image-url('careers/banner.jpg');
+  background-color: rgba(23, 43, 77, 0.5);
+
+  h3 {
+    line-height: 1.6;
+  }
+
+  .sub-section {
+    padding: 1em;
+    background: rgba(10, 30, 40, 0.7)
+  }
+}
+
+.career-items {
+  padding: 1em;
+
+  h4 {
+    margin: 1em auto;
+  }
+}

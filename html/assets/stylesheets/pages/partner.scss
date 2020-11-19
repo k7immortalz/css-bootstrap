@@ -1,0 +1,46 @@
+.partner-programs {
+  .partner-benefits {
+    padding: 3rem 0;
+
+    h2 {
+      margin-bottom: 2em;
+    }
+
+    h3 {
+      font-weight: bold;
+    }
+
+    .benefit-item {
+      margin-bottom: 2em;
+    }
+  }
+
+  .partner-program-details {
+    .about-partnership {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+
+    .feature-text {
+      // font-weight: bold;
+      font-size: 0.9em;
+    }
+  }
+
+  .partner-program-cta {
+    margin-top: 1em;
+  }
+}
+
+
+.oem-partner-page {
+  .oem-steps {
+    font-size: $font-size-sm;
+    margin-bottom: 2em;
+  }
+
+  h4 {
+    @extend .text-xl;
+    line-height: 1.4;
+  }
+}

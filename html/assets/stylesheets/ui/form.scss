@@ -1,0 +1,105 @@
+form {
+  ::-webkit-input-placeholder {
+    font-size: $font-size-md-xs;
+    color: $text-placeholder !important;
+  }
+
+  ::-moz-placeholder {
+    font-size: $font-size-md-xs;
+    color: $text-placeholder !important;
+  }
+
+  :-ms-input-placeholder {
+    font-size: $font-size-md-xs;
+    color: $text-placeholder !important;
+  }
+
+  ::placeholder {
+    font-size: $font-size-md-xs;
+    color: $text-placeholder !important;
+  }
+
+}
+
+form {
+
+  .btn.btn-primary {
+    margin-top: 1em;
+    margin-bottom: 5em;
+  }
+
+  // @extend .form-group;
+  .field {
+    @extend .form-group;
+    margin-bottom: 1.5rem;
+
+    label {
+      @extend .bold;
+    }
+
+    input[type=text],
+    input[type=email],
+    input[type=tel],
+    textarea {
+      @extend .form-control;
+    }
+  }
+
+  .field.radio-cards {
+    clear: both;
+    @extend .btn-group;
+    @extend .btn-group-toggle;
+
+    .radio-card {
+      @extend .btn-outline-dark;
+    }
+  }
+
+  .contact-radio-cards {
+    width: 100%;
+
+    .radio-card.btn {
+      border-radius: 0.5em !important;
+      text-align: left;
+
+      .helper {
+        font-size: $font-size-sm;
+        font-weight: normal;
+      }
+    }
+
+    .radio-card.btn:first-child {
+      margin: 0 0.5em 0 0 !important;
+    }
+
+    .radio-card.btn:last-child {
+      margin: 0 0 0 0.5em !important;
+    }
+  }
+}
+
+form .field {
+
+  input[type=text],
+  input[type=email],
+  input[type=tel],
+  textarea {
+    background: $form-background;
+    border-color: $form-border-color;
+  }
+
+  input[type=text],
+  input[type=email],
+  input[type=tel] {
+    padding: $form-padding;
+  }
+
+  textarea {
+    // padding-top: $form-textarea-top-padding;
+    min-height: 60px;
+  }
+}
+
+.invalid-feedback {
+  display: block;
+}

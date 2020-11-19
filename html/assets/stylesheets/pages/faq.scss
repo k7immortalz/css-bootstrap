@@ -1,0 +1,27 @@
+.faq-card {
+
+  @extend .card-shadow;
+  border-radius: 0.2em !important;
+
+
+  .card-header {
+    background: $bg-white;
+    border-bottom: none;
+    padding: 0;
+  }
+
+  h2 {
+    @extend .text-left;
+    font-size: 1em;
+    padding: 1.25rem;
+    background: $bg-grey;
+  }
+
+  h2[aria-expanded=true] {
+    background: $bg-white;
+  }
+
+  .card-body {
+    padding-top: 0;
+  }
+}

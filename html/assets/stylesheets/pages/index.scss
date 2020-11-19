@@ -1,0 +1,163 @@
+
+.home-feature-card.card {
+  margin-bottom: 0;
+  border-radius: 0.5em;
+}
+@media (min-width: $breakpoint-md) {
+  .home-feature-card.card {
+    border: none;
+    padding: 1em 2em;
+    border-radius: 1em;
+    .card-body {
+      padding: 0;
+    }
+  }
+}
+
+.benefits-section {
+  .col-sm-4 {
+    margin: 1em 0;
+  }
+}
+
+.section-mobile-app {
+
+  p,
+  .btn {
+    margin-top: 2em;
+  }
+}
+
+.fedena-connect-content{
+  background-color: $bg-accent;
+  background-image: image-url('banner/banner-fconnect.jpg');
+  background-repeat: repeat;
+  .video-player{
+    background-image: image-url('banner/banner-fconnect-video-frame.svg');
+    // background-size: cover;
+    background-repeat: no-repeat;
+    // max-width:370px;
+    // padding: 20% 4%;
+    // padding: 28% 6% 24%;
+    background-position: center;
+    background-repeat: no-repeat;
+    // padding: 20% 1% 16%;
+    // padding: 26% 6% 20%;
+    // padding: 0;
+    // width: 360px;
+    // max-width: 100%;
+    video{
+      // width: 360px;
+      // max-width: 100%;
+      // height: auto;
+      // padding: 19% 2% 15%;
+      // border-radius: 30px;
+      // background: rgba(0,0,0,0.7);
+      // padding: 10% 2.5%;
+      // border-radius: 1em;
+    }
+  }
+}
+.fedena-connect-content .video-player{
+  padding: 19% 5% 15%;
+  width: auto;
+  max-width: 380px;
+  box-sizing: border-box;
+}
+@media (max-width: $breakpoint-lg) {
+  .fedena-connect-content .video-player{
+    padding: 28% 6% 22%;
+  }
+}
+
+.section-why-fedena-home{
+  background: transparent 
+  radial-gradient(
+    closest-side at 50% 50%, 
+    #1F6D9D 0%, 
+    #172B4D 100%
+    ) 0% 0% no-repeat padding-box;
+}
+
+@media (max-width: $breakpoint-md) {
+  .section-why-fedena-home{
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+  }
+}
+// .section-why-fedena-home{
+//   &::before, &::after{
+//     content:'';
+//     display: block;
+//     height: 260px;
+//     background-size: cover;
+//   }
+//   &::before{
+//     background-position: bottom;
+//     background-image: image-url('banner/wave-up.svg');
+//     margin-bottom: -2px;
+//   }
+//   &::after{
+//     margin-top: -2px;
+//     background-position: top;
+//     background-image: image-url('banner/wave-down.svg');
+//   }
+// }
+
+
+@media (min-width: $breakpoint-md) {
+  .trusted-availability{
+    border-left: solid 2px $text-grey;
+  }
+}
+
+@media (max-width: $breakpoint-md) {
+  .trusted-section{
+    border-bottom: dashed 1px $text-grey;
+  }
+}
+
+
+@media (min-width: $breakpoint-md) {
+  .dotted-bg-top{
+    position: relative;
+    z-index: 2;
+    &:before{
+      content: '';
+      position: absolute;
+      background: image-url('banner/home-banner-text-bg.svg') no-repeat;
+      // padding-left: 60px;
+      // padding-top: 60px;
+      z-index: -1;
+      height: 130px;
+      width: 130px;
+      left: -45px;
+      top: -55px;
+    }
+  }
+}
+
+.banner-text{
+  @extend .dotted-bg-top;
+}
+
+.why-fedena-feature-set{
+  .why-fedena-feature:nth-child(2){
+    @extend .dotted-bg-top;
+    &:before{
+      opacity: 0.15;
+    }
+  }
+  .why-fedena-feature:nth-child(7){
+    @extend .dotted-bg-top;
+    &:before{
+      opacity: 0.15;
+      top: auto;
+      left: auto;
+      // right: -45px;
+      right: 0;
+      bottom: -55px;
+      transform: rotate(180deg);
+    }
+  }
+}

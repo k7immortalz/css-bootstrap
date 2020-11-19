@@ -1,0 +1,16 @@
+.sis-cards {
+  .card {
+    background: none;
+    border: none;
+
+    .card-body {
+      background: $bg-lightgrey;
+      border-radius: 0.5em;
+      margin-bottom: 2em;
+    }
+  }
+
+  ol li {
+    padding: 0.5em 0;
+  }
+}

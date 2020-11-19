@@ -1,0 +1,97 @@
+@media (max-width: $breakpoint-md) {
+  .text-center-md {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  .text-center-sm {
+    text-align: center !important;
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .text-left-lg {
+    text-align: left !important;
+  }
+}
+
+
+@media (max-width: $breakpoint-sm) {
+  .align-sm-c {
+    text-align: center;
+  }
+}
+
+.visible-sm {
+  @extend .d-block;
+  @extend .d-sm-none;
+}
+
+.hidden-sm {
+  @extend .d-none;
+  @extend .d-sm-block;
+}
+
+.hidden-md {
+  @extend .d-none;
+  @extend .d-md-block;
+}
+
+@media (min-width: $breakpoint-sm) {
+
+  .collapse-on-mobile.collapse,
+  .collapse-on-mobile.collapsing {
+    display: block;
+    height: auto !important;
+    visibility: visible;
+  }
+}
+
+
+@media (min-width: $breakpoint-md) {
+
+  .collapse-on-tablet.collapse,
+  .collapse-on-tablet.collapsing {
+    display: block;
+    height: auto !important;
+    visibility: visible;
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .hidden-lg {
+    display: none;
+  }
+}
+
+
+.scroll-wrapped-contents {
+  display: none;
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  // top: 50%;
+  height: 10em;
+  z-index: -1;
+
+  .scroll-revealed-transitions {
+    opacity: 0;
+    transition: opacity(500);
+  }
+
+}
+
+// @media (max-width: $breakpoint-md) {
+.scroll-revealed {
+  .scroll-wrapped-contents {
+    display: block;
+    z-index: 2;
+
+    .scroll-revealed-transitions {
+      opacity: 1;
+    }
+  }
+}
+
+// }

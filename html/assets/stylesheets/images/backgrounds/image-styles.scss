@@ -1,0 +1,153 @@
+.icon-inline {
+  display: inline-block;
+}
+
+.common-image-bg-properties {
+  margin: 0 auto;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+.bg-img {
+  @extend .common-image-bg-properties;
+}
+
+.bg-img.m-0 {
+  margin: 0;
+}
+
+.feature-thumbnails {
+  height: 100px;
+  width: 100px;
+}
+
+.feature-icons {
+  height: 36px;
+  width: 36px;
+}
+
+.bg-img.bg-img-menu-icon {
+  display: inline;
+  padding: 0 12px;
+  margin: 0;
+}
+
+.bg-img.bg-img-fedena-logo {
+  padding: 10px 40px;
+  display: inline-block;
+}
+
+.bg-img.bg-img-app-store-logos {
+  // padding: 14px 48px;
+  padding: 20px 64px;
+  display: inline-block;
+}
+
+.bg-img-addons.feature-icons {
+  height: 56px;
+  width: 56px;
+}
+
+.bg-img-home-features.feature-icons {
+  height: 64px;
+  width: 64px;
+}
+
+.bg-img-careers {
+  height: 96px;
+  width: 96px;
+}
+
+
+.bg-img-oem {
+  height: 96px;
+  width: 96px;
+}
+
+.bg-img-sis {
+  height: 64px;
+  width: 64px;
+  display: block;
+  margin: 0;
+}
+
+.bg-img-oem-benefit {
+  height: 112px;
+  width: 112px;
+}
+
+.bg-img-partner {
+  height: 48px;
+  width: 48px;
+}
+
+.bg-img-partner-benefit {
+  height: 5em;
+  width: 5em;
+  margin-bottom: 1em;
+}
+
+.bg-img-benefits {
+  height: 96px;
+  width: 96px;
+}
+
+.bg-img.illustrations {
+  height: 160px;
+  width: 192px;
+}
+
+.bg-img.bg-img.illustrations.bg-img-bangalore-prime {
+  height: 200px;
+  width: 570px;
+  // scale: 0.75;
+  // zoom: 0.75;
+  background-size: contain !important;
+  max-width: 100%;
+}
+
+.bg-img-pricing-icons {
+  height: 64px;
+  width: 64px;
+}
+
+.bg-img.bg-img-contact-thank-you,
+.bg-img.bg-img-ultimate-school-erp,
+.bg-img.bg-img-fedena-diff-image,
+.bg-img.bg-img-home-illustrations,
+.bg-img.bg-img-oem-illustrations,
+.bg-img.bg-img-partner-illustrations,
+.bg-img.bg-img-fedena-demo-image {
+  // height: 32em;
+  width: 100%;
+  min-height: 20em;
+}
+
+.bg-img.bg-img-fedena-demo-image {
+  min-height: 0;
+}
+
+.bg-img.bg-img-feature-tour-feature,
+.bg-img.bg-img-feature-tour-category-feature {
+  height: 425px;
+  width: 425px;
+  max-height: 100%;
+  max-width: 80%;
+}
+
+@media (max-width: 576px) {
+
+  .bg-img.bg-img-feature-tour-feature,
+  .bg-img.bg-img-feature-tour-category-feature {
+    height: 320px;
+    width: 320px;
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
+
+.bg-img.bg-img-awards {
+  height: 2em;
+  width: auto;
+}

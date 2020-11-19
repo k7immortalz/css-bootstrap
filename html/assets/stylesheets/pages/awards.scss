@@ -1,0 +1,33 @@
+$awards-card-radius: 0.5em;
+
+.awards-card {
+  background: $bg-grey;
+  font-size: $font-size-xs;
+  margin-bottom: 2em;
+  border: none;
+  border-radius: $awards-card-radius;
+  box-shadow: 0px 0px 1px $bg-medium-grey;
+
+  .card-img-top {
+    border-top-left-radius: $awards-card-radius;
+    border-top-right-radius: $awards-card-radius;
+  }
+
+  .card-title {
+    color: $text-dark;
+    font-size: $font-size-md;
+  }
+
+  .card-text {
+    color: $text-grey;
+    font-size: $font-size-sm;
+  }
+  a.link {
+    font-size: $font-size-normal;
+  }
+}
+
+.main-section.media-catalog,
+.main-section.award-catalog {
+  padding-bottom: 0;
+}

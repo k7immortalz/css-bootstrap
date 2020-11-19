@@ -1,0 +1,166 @@
+$breakpoint-xs: 0;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+$content-max-width: 1260px;
+$extended-content-max-width: 1440px;
+$section-content-max-width: 1080px;
+
+$info-bg: blue;
+
+$accent: #E84C3D;
+$bg-white: #ffffff;
+// $bg-light: #f0f0f0;
+$bg-light: #F4F5F7;
+$bg-lightgrey: #F4F5F7;
+$bg-medium: #e5e5e5;
+$bg-grey: #F4F5F7;
+$bg-medium-grey: #d6d7d8;
+$bg-dark: #172B4D;
+$bg-dark-blue: #172B4D;
+$bg-card-blue: #D1EDFF;
+$bg-prime: #F2F0FF;
+$bg-accent: #E84C3D;
+
+$shadow-medium: #d6d7d8;
+
+$home-gradient-color1: #172B4D;
+$home-gradient-color2: #E84C3D;
+
+// $home-banner-bg-color: #45743D;
+$home-banner-bg-color: transparent;
+
+$text-accent: #E84C3D;
+$text-white: #ffffff;
+$text-light: #ffffff;
+$text-medium: #d6d7d8;
+$text-grey: #777777;
+$text-dark-grey: #555555;
+$text-dark: #172B4D;
+$text-black: #111111;
+$text-footer: #9D9D9D;
+$text-footer-link: #172B4D;
+$text-placeholder: #aaaaaa;
+
+$menu-text-dark: #172B4D;
+$menu-text-light: #767373;
+$menu-bg-idle: transparent;
+$menu-bg-active: #FAFAFA;
+
+
+$accent-pro: #E84C3D;
+$accent-proplus: #08AD69;
+$accent-enterprise: #674FE4;
+$accent-prime: #674FE4;
+$accent-featured: #08AD69;
+
+$accent-pro-hover: #C82C1D;
+$accent-proplus-hover: #087D49;
+$accent-enterprise-hover: #472FC4;
+$accent-prime-hover: #472FC4;
+
+
+$bg-info: #D1EDFF;
+$bg-info-featured: #E3F2EF;
+
+$font-size-xxs: 0.8rem;
+$font-size-xs: 0.9rem;
+$font-size-sm: 1.0rem;
+$font-size-normal: 1.1rem;
+$font-size-md: 1.2rem;
+$font-size-lg: 1.3rem;
+$font-size-xl: 1.4rem;
+$font-size-xxl: 1.8rem;
+$font-size-xxxl: 2.1rem;
+$font-size-xxxxl: 3rem;
+$font-size-xxxxxl: 4rem;
+
+// $font-size-md-xxs: 0.7rem;
+// $font-size-md-xs: 0.8rem;
+// $font-size-md-sm: 0.9rem;
+// $font-size-md-normal: 1rem;
+// $font-size-md-md: 1.1rem;
+// $font-size-md-lg: 1.1rem;
+// $font-size-md-xl: 1.2rem;
+$font-size-md-xxl: 1.5rem;
+$font-size-md-xxxl: 1.8rem;
+$font-size-md-xxxxl: 2.2rem;
+$font-size-md-xxxxxl: 2.6rem;
+
+$font-size-md-xxs: 0.8rem;
+$font-size-md-xs: 0.9rem;
+$font-size-md-sm: 1.0rem;
+$font-size-md-normal: 1.1rem;
+$font-size-md-md: 1.2rem;
+$font-size-md-lg: 1.3rem;
+$font-size-md-xl: 1.4rem;
+// $font-size-md-xxl: 1.8rem;
+// $font-size-md-xxxl: 2.1rem;
+// $font-size-md-xxxxl: 3rem;
+// $font-size-md-xxxxxl: 4rem;
+
+
+$form-background: #f4f5f7;
+$form-padding: 1.5em 1em;
+$form-textarea-top-padding: 1.5em;
+$form-border-color: #f4f5f7;
+
+
+$btn-primary-bg: #E84C3D;
+$btn-primary-border: #E84C3D;
+$btn-primary-color: #FFFFFF;
+$btn-primary-hover-bg: #CC3122;
+$btn-primary-hover-border: #CC3122;
+$btn-primary-hover-color: #FFFFFF;
+
+$btn-border-width: 2px;
+
+
+$btn-secondary-bg: transparent;
+$btn-secondary-color: #E84C3D;
+$btn-secondary-border: #E84C3D;
+// $btn-secondary-hover-bg: transparent;
+// $btn-secondary-hover-border: #FFFFFF;
+// $btn-secondary-hover-color: #FFFFFF;
+$btn-secondary-hover-bg: transparent;
+$btn-secondary-hover-border: #CC3122;
+$btn-secondary-hover-color: #CC3122;
+
+$btn-secondary-blue-bg: transparent;
+$btn-secondary-blue-color: #172B4D;
+$btn-secondary-blue-border: #172B4D;
+// $btn-secondary-blue-hover-bg: transparent;
+// $btn-secondary-blue-hover-border: #FFFFFF;
+// $btn-secondary-blue-hover-color: #FFFFFF;
+$btn-secondary-blue-hover-bg: transparent;
+$btn-secondary-blue-hover-border: #426195;
+$btn-secondary-blue-hover-color: #426195;
+
+
+$main-section-padding-v: 2em;
+$main-section-padding-h: 1em;
+$main-section-padding-extra: 3em;
+
+$btn-green-bg: #417637;
+$btn-green-border: #417637;
+$btn-green-color: #FFFFFF;
+$btn-green-hover-bg: #7BC66E;
+$btn-green-hover-border: #7BC66E;
+$btn-green-hover-color: #FFFFFF;
+
+$btn-secondary-green-bg: #FFFFFF;
+$btn-secondary-green-color: #417637;
+$btn-secondary-green-border: #417637;
+$btn-secondary-green-hover-bg: #FFFFFF;
+$btn-secondary-green-hover-border: #7BC66E;
+$btn-secondary-green-hover-color: #7BC66E;
+
+
+$btn-secondary-accent-bg: #FFFFFF;
+$btn-secondary-accent-color: #E84C3D;
+$btn-secondary-accent-border: #E84C3D;
+$btn-secondary-accent-hover-bg: #FFFFFF;
+$btn-secondary-accent-hover-border: #C82C1D;
+$btn-secondary-accent-hover-color: #C82C1D;

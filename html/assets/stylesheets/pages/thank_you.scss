@@ -1,0 +1,34 @@
+.thank-you-contents {
+  .page-title-section {
+    margin-bottom: 4em;
+  }
+
+  .illustration-thanks {
+    margin-bottom: 3em;
+  }
+
+  .illustration-last-release {
+    margin-bottom: 1em;
+
+    img {
+      max-width: 720px;
+      height: auto;
+    }
+  }
+
+  .illustration-ebook {
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+
+
+  .section-info {
+    padding: 2em 0;
+  }
+
+  .info-message {
+    @extend .text-xl;
+    // font-weight: bold;
+    margin-bottom: 1em;
+  }
+}

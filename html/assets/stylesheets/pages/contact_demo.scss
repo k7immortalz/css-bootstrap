@@ -1,0 +1,21 @@
+.demo-sidebar {
+  .demo-sidebar-content {
+    background: #f4f5f7;
+    padding: 2em;
+    border-radius: 0.5em;
+  }
+
+  .h2 {
+    @extend .text-left;
+  }
+
+  .h4 {
+    @extend .bold;
+    text-indent: -1em;
+    margin-left: 1em;
+
+    a {
+      line-height: avoid;
+    }
+  }
+}

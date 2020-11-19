@@ -1,0 +1,213 @@
+.testimonial-slide {
+  @extend .text-dark;
+
+  .image {}
+
+  .description {
+    @extend .text-xxl;
+  }
+
+  .institution {
+    @extend .text-xl;
+    @extend .text-accent;
+  }
+
+  .author_name {
+    font-weight: bold;
+    @extend .text-lg;
+  }
+
+  .author_role {
+    @extend .text-md;
+  }
+}
+
+
+.testimonial-cards {
+  background: $bg-lightgrey;
+
+  &.main-section .sub-section {
+    padding: 0;
+  }
+
+}
+
+.featured-testimonial-slider .carousel-inner {
+  // min-height: 25em;
+  min-height: 50vh;
+}
+
+
+// ------- toggle and choose same row start or pinterest layout ---------
+// ------- same row start style begin ---------
+.testimonial-card-container {
+  @extend .row;
+
+  .testimonial-card {
+    @extend .col-12;
+    @extend .col-md-6;
+    @extend .col-lg-4;
+  }
+}
+
+// ------- same row start style end ---------
+// ------- pinterest style begin ---------
+// .testimonial-card-container {
+//  @extend .card-columns;
+//  .testimonial-card {
+//   @extend .card;
+//   background: none;
+//   border: none;
+//  }
+// }
+// ------- pinterest style end ---------
+
+
+.testimonial-card {
+  margin-top: 2em;
+  @extend .text-dark;
+
+  .image img {
+    max-width: 64px;
+    height: auto;
+    // margin: 0 auto;
+  }
+
+  .description {
+    @extend .text-sm;
+    background: $bg-white;
+    padding: 2em;
+    border-radius: 0.5em;
+    margin-bottom: 2em;
+    position: relative;
+    @extend .text-left;
+  }
+
+  .description::after {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    text-align: center;
+    content: '';
+    border-style: solid;
+    border-width: 1.5em 1.5em 0 1.5em;
+    margin: 0 auto;
+    margin-left: -1.5em;
+    border-color: $bg-white transparent transparent transparent;
+  }
+
+  .institution {
+    // @extend .text-md;
+    font-weight: bold;
+    @extend .text-accent;
+  }
+
+  .author_name {
+    @extend .text-sm;
+    font-weight: bold;
+  }
+
+  .author_role {
+    @extend .text-sm;
+  }
+}
+
+.shared-testimonial-slider{
+  
+  .carousel-inner{
+    background: $bg-white;
+    // border: solid 1px $bg-accent;
+    // box-shadow: 0 0 20px #DF8F87;
+    box-shadow: 0px 9px 30px #FF160027;
+    border: 0.25px solid #FF160027;
+
+    img{
+      margin-top: 3em;
+      width: 7em;
+      height: auto;
+      border-radius: 6em;
+      border: solid 1px $bg-medium-grey;
+    }
+
+    border-radius: 1em;
+    // padding: 2em;
+    // padding-bottom: 4em;
+    .whitepaper-link a{
+      display: block;
+      padding: 1em 0;
+      background-color: $bg-accent;
+      color: $text-white;
+    }
+  }
+  .carousel-control-next, .carousel-control-prev{
+    width: 4em;
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+      background: $bg-white;
+      border: solid 1px $text-grey;
+      padding: 1em;
+      border-radius: 2em;
+    }
+  }
+  .carousel-control-prev{
+    left: -2em;
+  }
+  .carousel-control-next{
+    right: -2em;
+  }
+}
+
+.carousel-controls{
+  position: relative;
+  margin-top: 4em;
+}
+
+
+.carousel-bullet {
+  background: $bg-white;
+  border: solid 1px $bg-accent;
+  height: 0.5em;
+  width: 0.5em;
+  border-radius: 1em;
+}
+
+.active .carousel-bullet {
+  background: $bg-accent;
+}
+
+.carousel-indicators {
+  bottom: -4em;
+  li{
+    background: none;
+  }
+}
+
+.testimonial-indicator{
+  margin: 0 auto;
+  // border: solid 1px $bg-accent;
+  box-shadow: 0px 10px 20px $bg-medium-grey;
+  padding: 2em;
+  display: inline-block;
+  margin-bottom: 30px;
+  border-radius: 3em;
+  background: white;
+  z-index: 3;
+  text-align: center;
+  position: absolute;
+  margin-top: -2em;
+  margin-left: -2em;
+  height: 0;
+  width: 0;
+  .icons{
+    margin: -1em;
+    height: 2em;
+    width: 2em;
+  }
+}
+
+.testimonial-arrows{
+  background-color: $bg-white;
+  border: solid 1px $text-grey;
+  padding: 0.5em;
+  border-radius: 5em;
+}

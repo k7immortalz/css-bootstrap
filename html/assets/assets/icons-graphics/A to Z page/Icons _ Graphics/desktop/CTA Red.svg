@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="262.902" height="56" viewBox="0 0 262.902 56">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="262.902" height="56" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="CTA_Red" data-name="CTA Red" clip-path="url(#clip-path)">
+    <g clip-path="url(#clip-path)">
+      <rect id="Rectangle_6" data-name="Rectangle 6" width="262.902" height="56" rx="6" fill="#e84c3d"/>
+      <text id="Start_Free_Trial" data-name="Start Free Trial" transform="translate(134 36.985)" fill="#fff" font-size="24" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-77.286" y="0">Start Free Trial</tspan></text>
+    </g>
+  </g>
+</svg>

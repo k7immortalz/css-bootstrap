@@ -1,0 +1,31 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.reason-contents {
+  .reason-content {
+    border: solid 1px $bg-grey;
+    padding: 2em;
+
+    .reason-title {
+      color: $text-dark;
+    }
+  }
+}
+
+.award-logos {
+  .img-fluid {
+    max-width: 100px;
+  }
+}
+
+.fconnect-screencast {
+  width: 360px;
+  max-width: 100%;
+}
+
+.fedena-benefits {
+  .col-sm.benefit-item {
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+}

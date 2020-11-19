@@ -1,0 +1,292 @@
+.pricing_plans {}
+$pricing-card-radius: 0.5em;
+$pricing-breakpoint: $breakpoint-md;
+
+.pricing-card{
+  width: 100%;
+}
+
+@media (min-width: $pricing-breakpoint) {
+  .pricing-card{
+    width: 31%;
+    margin: 0 1% ;
+    max-width: 350px;
+    border-radius: $pricing-card-radius !important;
+    box-shadow: 0 0 10px $shadow-medium;
+  }
+}
+
+.bg-prime{  
+  background-color: $bg-prime;
+  h2
+  {
+    color: $accent-prime;
+  }
+
+  .prime-label{
+    background-color: $accent-prime;
+    color: white;
+    padding: 5px 10px 3px 5px;
+    font-weight: normal;
+    font-size: 0.7em;
+    border-radius: 0 10px 10px 0;
+  }
+}
+
+.pricing-plan-set.card {
+  background: none;
+  border: none;
+
+  .card-body {
+    padding: 0;
+    border-radius: $pricing-card-radius;
+
+    .pricing-info[aria-expanded="false"] {
+      border-radius: $pricing-card-radius;
+    }
+  }
+
+  .pricing-info,
+  .pricing-content {
+    padding: 2em;
+  }
+}
+
+
+
+.pricing-plan-set {
+  margin-bottom: 2em;
+
+  .card-body,
+  .card-footer {
+    background: $bg-white;
+    // cursor: pointer;
+    border-color: $bg-white;
+
+  }
+
+  .card-footer {
+    // border-bottom-left-radius: $pricing-card-radius;
+    // border-bottom-right-radius: $pricing-card-radius;
+    margin-top: -1em;
+  }
+}
+
+
+.pricing-content {
+  border-top: solid 1px $bg-grey;
+  // font-size: 0.9em;
+}
+
+.pricing-plan-set {
+
+  .plan-name {
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+
+  .plan-assist{
+    min-height: 3em;
+  }
+
+  .plan-meta {
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+
+  .plan-cost {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  .plan-taxes {
+    color: $text-grey;
+    font-size: 0.8em;
+  }
+
+  .pricing-feature {
+    margin-bottom: 1em;
+  }
+}
+
+@media (max-width: $pricing-breakpoint) {
+
+  .pricing-header{
+    cursor: pointer;
+  }
+
+  .pricing-plan-set {
+    .card-body .pricing-info[aria-expanded="false"] {
+      color: $text-white;
+
+      .plan-name,
+      .plan-taxes {
+        color: $text-white;
+      }
+    }
+  }
+
+  .pricing-plan-set-pro {
+    .card-body .pricing-info[aria-expanded="false"] {
+      background: $accent-pro;
+    }
+  }
+
+  .pricing-plan-set-pro_plus {
+    .card-body .pricing-info[aria-expanded="false"] {
+      background: $accent-proplus;
+    }
+  }
+
+  .pricing-plan-set-prime,
+  .pricing-plan-set-enterprise {
+    .card-body .pricing-info[aria-expanded="false"] {
+      background: $accent-enterprise;
+    }
+  }
+}
+
+
+.pricing-btn-pro {
+  background: $accent-pro;
+  border-color: $accent-pro;
+}
+
+.pricing-btn-pro_plus {
+  background: $accent-proplus;
+  border-color: $accent-proplus;
+}
+
+.pricing-btn-prime,
+.pricing-btn-enterprise {
+  background: $accent-enterprise;
+  border-color: $accent-enterprise;
+}
+
+.pricing-btn-pro:hover,
+.pricing-btn-pro:active,
+.pricing-btn-pro:focus {
+  background: $accent-pro-hover;
+  border-color: $accent-pro-hover;
+}
+
+.pricing-btn-pro_plus:hover,
+.pricing-btn-pro_plus:active,
+.pricing-btn-pro_plus:focus {
+  background: $accent-proplus-hover;
+  border-color: $accent-proplus-hover;
+}
+
+.pricing-btn-prime:hover,
+.pricing-btn-prime:active,
+.pricing-btn-prime:focus,
+.pricing-btn-enterprise:hover,
+.pricing-btn-enterprise:active,
+.pricing-btn-enterprise:focus {
+  background: $accent-enterprise-hover;
+  border-color: $accent-enterprise-hover;
+}
+
+
+
+.pricing-plan-set-pro {
+  .btn.pricing-plan-cta {
+    @extend .pricing-btn-pro;
+  }
+}
+
+.pricing-plan-set-pro_plus {
+  .btn.pricing-plan-cta {
+    @extend .pricing-btn-pro_plus;
+  }
+}
+
+.pricing-plan-set-prime,
+.pricing-plan-set-enterprise {
+  .btn.pricing-plan-cta {
+    @extend .pricing-btn-prime;
+  }
+}
+
+.pricing-plan-set-pro {
+  .plan-name {
+    color: $accent-pro;
+  }
+}
+
+.pricing-plan-set-pro_plus {
+  .plan-name {
+    color: $accent-proplus;
+  }
+}
+
+.pricing-plan-set-prime,
+.pricing-plan-set-enterprise {
+  .plan-name {
+    color: $accent-enterprise;
+  }
+}
+
+.pricing-features-list {
+  .feature-link {
+    color: $text-dark;
+  }
+}
+
+.pricing_plans {
+  .pricing-feature-set {
+    margin-bottom: 1em;
+  }
+
+  .feature-category {
+    padding: 1em;
+  }
+}
+
+@media (max-width: $pricing-breakpoint) {
+  .pricing-feature-card.card {
+
+    // padding: 0 1em;
+    // margin: 0 1em;
+    .card-body {
+      padding: 0;
+    }
+  }
+
+}
+
+@media (min-width: $pricing-breakpoint) {
+  .pricing-feature-card.card {
+    border: none;
+    // margin-bottom: 2em;
+
+    .card-body {
+      padding: 0;
+    }
+  }
+}
+
+@media (min-width: $pricing-breakpoint) {
+  .pricing-plan-set{
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+  .pricing-plan-set.featured-plan{
+    font-size: 1.1em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    .card-body {
+      .pricing-info{
+        background: $accent-featured;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        color: $text-white;
+        .plan-name,
+        .plan-taxes {
+          color: $text-white;
+        }
+      }
+    }
+    box-shadow: 0 0 10px $accent-featured;
+  }
+}

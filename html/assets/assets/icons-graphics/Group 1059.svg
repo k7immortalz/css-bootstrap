@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="124" height="124" viewBox="0 0 124 124">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f5f5f5"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1059" data-name="Group 1059" transform="translate(-484 -841)">
+    <g id="Group_321" data-name="Group 321" transform="translate(-898 -1027)">
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="62" cy="62" r="62" transform="translate(1382 1868)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_366" data-name="Group 366" transform="translate(-115 -448)">
+      <g id="Rectangle_106" data-name="Rectangle 106" transform="translate(632 1310)" fill="#fff" stroke="#182b4c" stroke-width="2.5">
+        <rect width="58" height="72" rx="6" stroke="none"/>
+        <rect x="1.25" y="1.25" width="55.5" height="69.5" rx="4.75" fill="none"/>
+      </g>
+      <text id="A_" data-name="A+" transform="translate(640 1315)" fill="#e74c3c" stroke="#e74c3c" stroke-width="1" font-size="20" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="20">A+</tspan></text>
+      <line id="Line_16" data-name="Line 16" x2="25" transform="translate(656.5 1343.5)" fill="none" stroke="#182b4c" stroke-linecap="round" stroke-width="2.5"/>
+      <line id="Line_17" data-name="Line 17" x2="41.5" transform="translate(640 1356.5)" fill="none" stroke="#182b4c" stroke-linecap="round" stroke-width="2.5"/>
+      <line id="Line_18" data-name="Line 18" x2="41.5" transform="translate(640 1369.5)" fill="none" stroke="#182b4c" stroke-linecap="round" stroke-width="2.5"/>
+    </g>
+  </g>
+</svg>
